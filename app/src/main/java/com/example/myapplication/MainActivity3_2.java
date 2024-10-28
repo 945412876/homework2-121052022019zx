@@ -1,6 +1,5 @@
 package com.example.myapplication;
 
-import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,7 +9,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity3_2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         View dialogView = inflater.inflate(R.layout.dialog_custom, null);
 
         // 创建 AlertDialog
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity2.this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity3_2.this);
         builder.setView(dialogView);
 
         // 获取布局中的控件
@@ -48,7 +47,7 @@ public class MainActivity2 extends AppCompatActivity {
                 String password = passwordEditText.getText().toString();
 
                 // 显示用户输入
-                Toast.makeText(MainActivity2.this, "Username: " + username + "\nPassword: " + password, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity3_2.this, "Username: " + username + "\nPassword: " + password, Toast.LENGTH_SHORT).show();
             }
         });
 

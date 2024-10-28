@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity3_1 extends AppCompatActivity {
 
     // 动物名称
     private String[] names = {"Lion", "Tiger", "Monkey", "Dog", "Cat", "Elephant"};
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String name = names[position];
                 // 显示 Toast
-                Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity3_1.this, name, Toast.LENGTH_SHORT).show();
                 // 更新选中的项目
                 selectedItem.setText(name);
             }

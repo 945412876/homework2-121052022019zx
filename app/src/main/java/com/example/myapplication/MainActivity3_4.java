@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-public class MainActivity4 extends AppCompatActivity {
+public class MainActivity3_4 extends AppCompatActivity {
 
     private ListView listView;
     private CustomAdapter adapter;
@@ -94,7 +94,7 @@ public class MainActivity4 extends AppCompatActivity {
     private class CustomAdapter extends ArrayAdapter<String> {
 
         CustomAdapter() {
-            super(MainActivity4.this, R.layout.list_item2, items);
+            super(MainActivity3_4.this, R.layout.list_item2, items);
         }
 
         @Override

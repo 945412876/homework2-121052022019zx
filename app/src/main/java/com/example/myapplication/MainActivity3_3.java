@@ -8,7 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity3 extends AppCompatActivity {
+public class MainActivity3_3 extends AppCompatActivity {
 
     private TextView testTextView;
 
